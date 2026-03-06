@@ -330,3 +330,22 @@ The long-term goal is to create a personal nutrition intelligence system that he
 * Make data-driven nutrition decisions
 
 With sufficient data, the platform could evolve into an intelligent diet assistant capable of providing personalized recommendations and predictive insights.
+
+
+# Production-ready Full-Stack
+
+- Backend language: Python
+- Backend framework: FastAPI
+- ORM & migrations: SQLAlchemy + Alembic
+- Authentication: JWT (via FastAPI)
+- Frontend: React + TypeScript
+- Styling: Tailwind CSS
+- Data fetching / cache: TanStack Query
+- Database & storage: PostgreSQL hosted on Supabase
+- Caching / broker: Redis (provider: Upstash)
+- Containerization: Docker
+- CI / CD & VCS: GitHub (use Actions)
+- Frontend hosting: Vercel
+- Backend hosting: Render
+- Testing: pytest and Jest
+- Monitoring: Sentry
